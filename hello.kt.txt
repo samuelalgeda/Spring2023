@@ -1,0 +1,10 @@
+
+fun main(args: Array<String>) {
+    println("Hello World!")
+    println("Hello World!")
+    println("I am learning Kotlin.")
+    println("It is awesome!")
+
+    println("Program arguments: ${args.joinToString()}")
+}
+
