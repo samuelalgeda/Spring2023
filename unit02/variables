@@ -1,24 +1,22 @@
-// Declare a constant of type Int called myAge and set it to your age
-    val myAge: Int = 19
+// Samuel Algeda
+// 02.2 Variable Declaration
+// January 12, 2023
+
+
+
+fun main() {
     
-    // Declare a variable of type Double called averageAge. Initially, set it to your own age. Then, set it to the average of your age and my own age of 30
-    var averageAge: Double = 19.0
-    averageAge = (averageAge + 30.0) / 2
+    var myAge=19
+    var averageAge=24.5
     
-    // Create a constant called testNumber and initialize it with whatever integer you’d like. Next, create another constant called evenOdd and set it equal to testNumber modulo 2
-    val testNumber: Int = 4
-    val evenOdd: Int = testNumber % 2
-    println("Test number: $testNumber, Even/Odd: $evenOdd") // Output: Test number: 4, Even/Odd: 0
+    var testNumber = 5
+    var evenOdd = testNumber % 2
     
-    // Now change testNumber to various numbers. What do you notice about evenOdd?
-    val testNumber2: Int = 9
-    val evenOdd2: Int = testNumber2 % 2
-    println("Test number: $testNumber2, Even/Odd: $evenOdd2") // Output: Test number: 9, Even/Odd: 1
-    
-    // Create a variable called answer and initialize it with the value 0. Increment it by 1. Add 10 to it. Multiply it by 10. Then, shift it to the right* by 3
     var answer = 0
-    answer++
-    answer += 10
-    answer *= 10
-    answer = answer.shr(3)
-    println("Answer: $answer") // Output: Answer: 100
+        answer += (1+10)*10*1000
+        
+    	
+    
+    println(answer)
+  
+} 
