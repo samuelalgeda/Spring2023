@@ -1,10 +1,6 @@
-import java.util.Scanner
-
 fun main() {
-    val input = Scanner(System.`in`)
-
     print("Enter the mass of the object in kilograms: ")
-    val mass = input.nextDouble()
+    val mass = readLine()!!.toDouble()
 
     val weight = mass * 9.8
 
@@ -14,3 +10,4 @@ fun main() {
         else -> println("The weight of the object is %.2f Newtons.".format(weight))
     }
 }
+
