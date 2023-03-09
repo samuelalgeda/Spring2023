@@ -1,15 +1,10 @@
-import java.util.Scanner
-
 fun main() {
-   
-    val input = Scanner(System.`in`)
-
     print("Enter the month (in numeric form): ")
-    val month = input.nextInt()
+    val month = readLine()?.toInt() ?: 0
     print("Enter the day: ")
-    val day = input.nextInt()
+    val day = readLine()?.toInt() ?: 0
     print("Enter the two-digit year: ")
-    val year = input.nextInt()
+    val year = readLine()?.toInt() ?: 0
 
     if (month * day == year) {
         println("The date is magic!")
