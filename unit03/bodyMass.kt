@@ -1,12 +1,8 @@
-import java.util.Scanner
-
 fun main() {
-    val input = Scanner(System.`in`)
-    
     print("Enter your weight in pounds: ")
-    val weight = input.nextDouble()
+    val weight = readLine()!!.toDouble()
     print("Enter your height in inches: ")
-    val height = input.nextDouble()
+    val height = readLine()!!.toDouble()
 
     val bmi = weight * 703 / (height * height)
 
@@ -18,3 +14,4 @@ fun main() {
 
     println("Your BMI is ${"%.1f".format(bmi)}, which is considered $status.")
 }
+
